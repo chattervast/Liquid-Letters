@@ -1,0 +1,40 @@
+{
+    "name": "chattervast/liquid-letters",
+    "description": "Count words, get reading times, and convert text to list items.",
+    "type": "craft-plugin",
+    "version": "1.2",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "liquid letters"
+    ],
+    "support": {
+        "docs": "https://github.com/chattervast/liquid-letters/blob/master/README.md",
+        "issues": "https://github.com/chattervast/liquid-letters/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chattervast",
+            "homepage": "https://github.com/chattervast"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "chattervast\\liquidletters\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Liquid Letters",
+        "handle": "liquid-letters",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/chattervast/liquid-letters/master/CHANGELOG.md",
+        "class": "chattervast\\liquidletters\\LiquidLetters"
+    }
+}
